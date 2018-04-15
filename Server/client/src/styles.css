@@ -12,3 +12,8 @@ body {
     border: solid 1px black;
     border-radius: 5px;
 }
+
+.right-align {
+    float: right;
+    padding: 20px;
+}

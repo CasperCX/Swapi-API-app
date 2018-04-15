@@ -75,7 +75,8 @@ class App extends Component {
         </div>
       </form>
        <button value="height" onClick={this.handleSortChange.bind(this)}>Sort by Height</button>
-       <button value="mass" onClick={this.handleSortChange.bind(this)}>Sort by Weight</button>
+       <button value="mass" onClick={this.handleSortChange.bind(this)}>Sort by Mass</button>
+       <span class="right-align"><h1>Viewing: {this.state.selectedTerm.toUpperCase()}</h1></span>
        <h2>Sorted by: {this.state.selectedSort.toUpperCase()}</h2>
         <div>
         </div>
