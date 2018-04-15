@@ -3,14 +3,26 @@ import { connect } from 'react-redux';
 import { getData } from './actions';
 
 class App extends Component {
-  componentDidMount() {
-    this.props.getData();
+  constructor() {
+    super();
+    this.state = { items: [] }
   };
 
+  componentDidMount() {
+    this.props.getData();
+  //   fetch('https://swapi.co/api/people/?format=json')
+  //   .then(res => res.json())
+  //   .then( ({ results: items }) => this.setState({ items }))
+  // };
+  }
   render() {
-    console.log("data:", this.props.data);
+    //console.log(this.state.items);
+    console.log(this.props.data);
     return (
-      <div>Home;</div>
+      <div>
+        {this.props.data.map(item => 
+          <h4 key={item.name}>{item.name}</h4>)}
+      </div>
       )
   }
 };
