@@ -1,4 +1,5 @@
-# Swapi_Stats
+# Swapi-API-app
+
 App using the Star Wars API
 
 instructions:
