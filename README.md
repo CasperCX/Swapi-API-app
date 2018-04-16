@@ -1,5 +1,5 @@
 # Swapi_Stats
-Star Wars API
+App using the Star Wars API
 
 instructions:
 1. npm install in /client
