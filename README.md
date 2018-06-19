@@ -1,6 +1,5 @@
 # Swapi-API-app
-
-Fetching and sorting app using the Star Wars API with React + Redux
+A React + Redux Sorting App uing the Star Wars API
 
 
 instructions:
