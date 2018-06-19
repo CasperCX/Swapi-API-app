@@ -1,5 +1,5 @@
 # Swapi-API-app
-A React + Redux Sorting App uing the Star Wars API
+A React + Redux Sorting App using the Star Wars API
 
 
 instructions:
